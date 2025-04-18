@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>День программиста 2025</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3498db;
+            --accent: #e74c3c;
+            --light: #ecf0f1;
+            --dark: #2c3e50;
+        }
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            margin: 0;
+            padding: 0;
+            background-color: var(--light);
+        }
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .date-place {
+            font-size: 1.2rem;
+            margin-bottom: 1.5rem;
+        }
+        .btn {
+            display: inline-block;
+            background-color: var(--accent);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        .btn:hover {
+            background-color: #c0392b;
+            transform: translateY(-2px);
+        }
+        nav {
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 1rem 0;
+            margin: 0;
+        }
+        nav li {
+            margin: 0 15px;
+        }
+        nav a {
+            text-decoration: none;
+            color: var(--dark);
+            font-weight: 500;
+            padding: 5px 10px;
+            border-bottom: 2px solid transparent;
+            transition: all 0.3s;
+        }
+        nav a:hover {
+            color: var(--secondary);
+            border-bottom: 2px solid var(--secondary);
+        }
+        section {
+            padding: 3rem 0;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 2rem;
+            color: var(--primary);
+        }
+        .program-item {
+            background-color: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            display: flex;
+            align-items: center;
+        }
+        .time {
+            font-weight: bold;
+            color: var(--secondary);
+            min-width: 100px;
+        }
+        .speakers {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        .speaker {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            transition: transform 0.3s;
+        }
+        .speaker:hover {
+            transform: translateY(-5px);
+        }
+        .speaker-img {
+            height: 200px;
+            background-color: #ddd;
+            background-size: cover;
+            background-position: center;
+        }
+        .speaker-info {
+            padding: 1.5rem;
+        }
+        .speaker-name {
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            color: var(--primary);
+        }
+        .speaker-company {
+            color: var(--secondary);
+            margin-bottom: 1rem;
+        }
+        .interactive-item {
+            background-color: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        footer {
+            background-color: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 2rem;
+        }
+        .social-links {
+            margin-top: 1rem;
+        }
+        .social-links a {
+            color: white;
+            margin: 0 10px;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>День программиста 2025</h1>
+            <div class="date-place">16 апреля | Онлайн и офлайн (Москва, колледж Царицино")</div>
+            <a href="#register" class="btn">Зарегистрироваться</a>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">О событии</a></li>
+            <li><a href="#program">Программа</a></li>
+            <li><a href="#speakers">Спикеры</a></li>
+            <li><a href="#interactive">Интерактив</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+        </ul>
+    </nav>
+    
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">О событии</h2>
+            <p>День программиста — это ежегодное мероприятие, посвященное профессиональному празднику всех разработчиков. В этом году мы подготовили насыщенную программу с докладами от ведущих экспертов индустрии, мастер-классами и интерактивными активностями.</p>
+            <p>Мероприятие пройдет в гибридном формате: вы можете присоединиться онлайн или посетить офлайн-площадку в Москве.</p>
+        </div>
+    </section>
+    
+    <section id="program">
+        <div class="container">
+            <h2 class="section-title">Программа мероприятия</h2>
+            
+            <div class="program-item">
+                <div class="time">10:00</div>
+                <div class="description">Регистрация</div>
+            </div>
+            
+            <div class="program-item">
+                <div class="time">10:30</div>
+                <div class="description">Открытие мероприятия</div>
+            </div>
+            
+            <div class="program-item">
+                <div class="time">11:00</div>
+                <div class="description">Первая лекция</div>
+            </div>
+            
+            <div class="program-item">
+                <div class="time">12:00</div>
+                <div class="description">Мастер-класс</div>
+            </div>
+            
+            <div class="program-item">
+                <div class="time">13:00</div>
+                <div class="description">Обеденный перерыв</div>
+            </div>
+            
+            <div class="program-item">
+                <div class="time">14:00</div>
+                <div class="description">Вттрая лекция</div>
+            </div>
+            
+            <div class="program-item">
+                <div class="time">15:00</div>
+                <div class="description">Панельная дискуссия</div>
+            </div>
+            
+            <div class="program-item">
+                <div class="time">16:00</div>
+                <div class="description">Закрытие мероприятия</div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="speakers">
+        <div class="container">
+            <h2 class="section-title">Наши спикеры</h2>
+            
+            <div class="speakers">
+                <div class="speaker">
+                    <div class="speaker-info">
+                        <div class="speaker-name">Кышлалы Илья</div>
+                        <div class="speaker-company">Ученик первого курса колледжа Царицино</div>
+                        <p>Тема выступления: "Оптимизация производительности веб-приложений"</p>
+                    </div>
+                </div>
+                
+                <div class="speaker">
+                    <div class="speaker-info">
+                        <div class="speaker-name">Жигульский Роман</div>
+                        <div class="speaker-company">Ученик первого курса колледжа Царицино</div>
+                        <p>Тема выступления: "Machine Learning в production: проблемы и решения"</p>
+                    </div>
+                </div>
+
+                <div class="speaker">
+                    <div class="speaker-info">
+                        <div class="speaker-name">Халенян Геворг</div>
+                        <div class="speaker-company">Ученик первого курса колледжа Царицино</div>
+                        <p>Тема выступления: "Machine Learning в production: проблемы и решения"</p>
+                    </div>
+                </div>
+                
+                <div class="speaker">
+                    <div class="speaker-info">
+                        <div class="speaker-name">Бекренёв Алексей</div>
+                        <div class="speaker-company">Ученик первого курса колледжа Царицино</div>
+                        <p>Тема выступления: "Микросервисы vs монолит в 2025 году"</p>
+                    </div>
+                </div>
+
+                <div class="speaker">
+                    <div class="speaker-info">
+                        <div class="speaker-name">Васильев Матвей</div>
+                        <div class="speaker-company">Ученик первого курса колледжа Царицино</div>
+                        <p>Тема выступления: "Разработка embedded-систем для автономных автомобилей"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="interactive">
+        <div class="container">
+            <h2 class="section-title">Интерактив</h2>
+            
+            <div class="interactive-item">
+                <h3>Хакатон</h3>
+                <p>Примите участие в мини-хакатоне с реальными кейсами от компаний-партнеров. Победители получат ценные призы и возможность собеседования в компаниях.</p>
+            </div>
+            
+            <div class="interactive-item">
+                <h3>Квиз "Знаток кода"</h3>
+                <p>Проверьте свои знания в веселом соревновании с другими участниками. Вопросы по алгоритмам, синтаксису языков программирования и IT-культуре.</p>
+            </div>
+            
+            <div class="interactive-item">
+                <h3>Живое кодирование</h3>
+                <p>Соревнование по speed-coding: кто быстрее решит задачу на выбранном языке программирования. Зрители могут голосовать за лучшие решения.</p>
+            </div>
+            
+            <div class="interactive-item">
+                <h3>Ментор-сессии</h3>
+                <p>Получите индивидуальные консультации от опытных разработчиков по вашему коду, карьере или техническим вопросам.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="register">
+        <div class="container">
+            <h2 class="section-title">Регистрация</h2>
+            <p>Участие бесплатное, но требуется предварительная регистрация. Количество офлайн-мест ограничено.</p>
+            <form style="max-width: 500px; margin: 0 auto;">
+                <div style="margin-bottom: 1rem;">
+                    <label style="display: block; margin-bottom: 0.5rem;">Имя</label>
+                    <input type="text" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
+                </div>
+                <div style="margin-bottom: 1rem;">
+                    <label style="display: block; margin-bottom: 0.5rem;">Email</label>
+                    <input type="email" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
+                </div>
+                <div style="margin-bottom: 1rem;">
+                    <label style="display: block; margin-bottom: 0.5rem;">Формат участия</label>
+                    <select style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
+                        <option>Онлайн</option>
+                        <option>Офлайн</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn">Зарегистрироваться</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer id="contacts">
+        <div class="container">
+            <h3>День программиста 2025</h3>
+            <p>Организатор: IT-сообщество DevConnect</p>
+            <p>Email: info@devconnect.ru | Телефон: +7 (999) 999-99-99</p>
+            <div class="social-links">
+                <a href="#">Telegram</a>
+                <a href="#">VK</a>
+                <a href="#">YouTube</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
